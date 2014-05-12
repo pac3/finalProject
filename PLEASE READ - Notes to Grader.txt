@@ -1,0 +1,20 @@
+Hello!  Since VVVV is not a conventional programming language, I felt it prudent to include a couple of sidenotes regarding the code.
+
+--> Since VVVV is an interpreted, visual programming language, no conventional imperative code is present within this directory; everything is node-based.
+--> VVVV does not fall under either the imperative or object-oriented paradigms, but one could argue that the node structure is in line with functional programming.
+--> The closest thing you'll see to actual code is in the .xml backup files. from which VVVV loads node data.
+--> In order to load the planets' textures, click inside the rendering window and press "L" on your keyboard.
+--> Within the Turnin directory, there are 3 kinds of files and 2 subfolders.
+----> .v4p files are the actual programs and subprograms (called "patches" and "subpatches"); loading Solar.v4p will load all of the patches at once.
+----> ~.xml files are automatically created backups of the .v4p files; under the hood, all nodes in VVVV are stored in .xml format.
+----> .png files are screencaps of the .v4p patches from within the VVVV IDE / Interpreter, in case you can't / don't want to run VVVV itself.
+------> (The VVVV interpreter is available for free download on the developer's website).
+----> The "Data" folder contains .csv files from which I load the planets' position, size, rotation, and revolution data.
+----> The "Textures" folder contains image files from which I load the planets' textures and the skybox.
+--> The patches themselves contain only a few comments; I deliberately omitted most inline comments for two reasons.
+----> In VVVV, visible patch space is of great importance when programming, and unnecessary comments clutter the working space greatly.
+----> Because VVVV is such an unorthodox language, it's very difficult to understand without firsthand experience, and *everything* would need to be commented.
+
+
+Thank you for taking the time to read this!
+~ Patrick
